@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" fill="none">
+  <!-- Blue car front-side view -->
+  <g transform="translate(20, 40) scale(0.65)">
+    <!-- Shadow -->
+    <ellipse cx="180" cy="190" rx="160" ry="18" fill="#0284C7" opacity="0.25"/>
+    <!-- Car body -->
+    <path d="M40 140c10-25 40-45 80-50l60-25c30-12 70-12 100-2l50 27c30 10 45 25 50 50l-10 25H60l-20-25z" fill="#2563EB" stroke="#1D4ED8" stroke-width="3"/>
+    <!-- Windshield -->
+    <path d="M120 95l55-22c25-10 55-10 80 0l40 22-10 35H110l10-35z" fill="#93C5FD" opacity="0.9"/>
+    <!-- Wheels -->
+    <circle cx="100" cy="170" r="32" fill="#1E293B"/>
+    <circle cx="100" cy="170" r="18" fill="#94A3B8"/>
+    <circle cx="280" cy="170" r="32" fill="#1E293B"/>
+    <circle cx="280" cy="170" r="18" fill="#94A3B8"/>
+    <!-- Headlights -->
+    <circle cx="320" cy="135" r="10" fill="#FEF08A"/>
+  </g>
+
+  <!-- Big blue shield with white checkmark at right -->
+  <g transform="translate(190, 60)">
+    <path d="M40 0C60 0 80 15 80 35c0 40-30 65-40 75C30 100 0 75 0 35 0 15 20 0 40 0z" fill="#0284C7"/>
+    <path d="M40 5C57 5 74 18 74 36c0 36-26 58-34 67-8-9-34-31-34-67 0-18 17-31 34-31z" fill="#2563EB"/>
+    <path d="M26 38l10 10 20-20" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

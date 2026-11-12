@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+    <rect width="400" height="300" fill="#F8FAFC"/>
+    <!-- Oil filter cylinder -->
+    <rect x="140" y="70" width="120" height="160" rx="16" fill="#1E293B" stroke="#0F172A" stroke-width="4"/>
+    <ellipse cx="200" cy="70" rx="60" ry="16" fill="#334155" stroke="#0F172A" stroke-width="3"/>
+    <circle cx="200" cy="70" r="22" fill="#1E293B" stroke="#94A3B8" stroke-width="3"/>
+    <circle cx="200" cy="70" r="10" fill="#0F172A"/>
+    <!-- Small holes -->
+    <circle cx="180" cy="65" r="3" fill="#94A3B8"/>
+    <circle cx="220" cy="65" r="3" fill="#94A3B8"/>
+    <circle cx="180" cy="75" r="3" fill="#94A3B8"/>
+    <circle cx="220" cy="75" r="3" fill="#94A3B8"/>
+    <!-- Print on filter -->
+    <rect x="150" y="120" width="100" height="40" rx="4" fill="#0284C7"/>
+    <text x="200" y="145" fill="#FFF" font-size="16" font-family="sans-serif" font-weight="bold" text-anchor="middle">MANN-FILTER</text>
+    <text x="200" y="180" fill="#94A3B8" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle">W 67/1</text>
+  </svg>

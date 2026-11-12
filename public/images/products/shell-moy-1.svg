@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+    <rect width="400" height="300" fill="#F8FAFC"/>
+    <!-- Shell Canister -->
+    <path d="M140 85h50v-20h30v20h40l20 30v130c0 10-10 15-20 15H140c-10 0-20-5-20-15V115l20-30z" fill="#0284C7" stroke="#0369A1" stroke-width="3"/>
+    <!-- Handle cutout -->
+    <path d="M145 110h30v70h-30z" rx="8" fill="#F8FAFC"/>
+    <!-- Yellow shell logo area -->
+    <rect x="185" y="110" width="85" height="120" rx="6" fill="#FACC15"/>
+    <circle cx="227" cy="140" r="18" fill="#DC2626"/>
+    <path d="M217 142c3-10 17-10 20 0-3 3-7 4-10 4s-7-1-10-4z" fill="#FACC15"/>
+    <text x="227" y="175" fill="#1E293B" font-size="14" font-family="sans-serif" font-weight="900" text-anchor="middle">HELIX</text>
+    <text x="227" y="195" fill="#DC2626" font-size="16" font-family="sans-serif" font-weight="bold" text-anchor="middle">Ultra 5W-40</text>
+    <text x="227" y="215" fill="#1E293B" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">PurePlus 4L</text>
+    <!-- Cap -->
+    <rect x="190" y="50" width="30" height="16" rx="2" fill="#DC2626"/>
+  </svg>

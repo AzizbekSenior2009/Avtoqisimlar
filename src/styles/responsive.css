@@ -1,0 +1,158 @@
+/* ═══════════════════════════════════════════════════════
+   AvtoQism – Responsive Breakpoints & Utilities
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Extra-small phones (320px) ───────────────────────── */
+@media (max-width: 359px) {
+  :root {
+    --fs-base: 13px;
+    --fs-sm: 11px;
+    --fs-xs: 10px;
+    --fs-lg: 16px;
+    --fs-xl: 20px;
+    --fs-2xl: 24px;
+    --fs-3xl: 28px;
+    --fs-4xl: 34px;
+    --padding: 12px;
+    --header-h: 52px;
+  }
+}
+
+/* ── Phones (360px - 479px) ───────────────────────────── */
+@media (min-width: 360px) and (max-width: 479px) {
+  :root {
+    --fs-base: 14px;
+    --fs-sm: 12px;
+    --fs-xs: 11px;
+    --fs-lg: 16px;
+    --fs-xl: 21px;
+    --fs-2xl: 26px;
+    --fs-3xl: 30px;
+    --fs-4xl: 36px;
+    --padding: 16px;
+    --header-h: 56px;
+  }
+}
+
+/* ── Large phones (480px - 767px) ─────────────────────── */
+@media (min-width: 480px) and (max-width: 767px) {
+  :root {
+    --fs-base: 14px;
+    --fs-sm: 12px;
+    --fs-xs: 11px;
+    --fs-lg: 17px;
+    --fs-xl: 22px;
+    --fs-2xl: 27px;
+    --fs-3xl: 32px;
+    --fs-4xl: 38px;
+    --padding: 16px;
+    --header-h: 56px;
+  }
+}
+
+/* ── All phones combined (max-width: 767px) ───────────── */
+@media (max-width: 767px) {
+  :root {
+    --padding: 16px;
+    --header-h: 56px;
+  }
+
+  body {
+    padding-bottom: 72px;
+  }
+}
+
+/* ── Tablet (768px - 1023px) ──────────────────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --fs-base: 15px;
+    --fs-sm: 13px;
+    --fs-xs: 12px;
+    --fs-lg: 18px;
+    --fs-xl: 23px;
+    --fs-2xl: 28px;
+    --fs-3xl: 34px;
+    --fs-4xl: 40px;
+    --padding: 20px;
+    --header-h: 68px;
+  }
+
+  body {
+    padding-bottom: 72px;
+  }
+}
+
+/* ── Desktop (1024px+) ────────────────────────────────── */
+@media (min-width: 1024px) {
+  :root {
+    --fs-base: 15px;
+    --fs-sm: 13px;
+    --fs-xs: 12px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-2xl: 30px;
+    --fs-3xl: 36px;
+    --fs-4xl: 44px;
+    --padding: 24px;
+    --header-h: 80px;
+  }
+}
+
+/* ── Large Desktop (1440px+) ──────────────────────────── */
+@media (min-width: 1440px) {
+  :root {
+    --padding: 32px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   Visibility Utility Classes
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Hide on Mobile (< 768px) ─────────────────────────── */
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* ── Hide on Tablet (768px - 1023px) ──────────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+/* ── Hide on Desktop (1024px+) ────────────────────────── */
+@media (min-width: 1024px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* ── Show only on Mobile ──────────────────────────────── */
+@media (min-width: 768px) {
+  .show-mobile-only {
+    display: none !important;
+  }
+}
+
+/* ── Show only on Desktop ─────────────────────────────── */
+@media (max-width: 1023px) {
+  .show-desktop-only {
+    display: none !important;
+  }
+}
+
+/* ── Show only on Tablet ──────────────────────────────── */
+@media (max-width: 767px) {
+  .show-tablet-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .show-tablet-only {
+    display: none !important;
+  }
+}

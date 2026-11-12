@@ -1,0 +1,140 @@
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--white);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.15s ease-out;
+}
+
+.search-overlay-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--white);
+}
+
+.search-back-btn {
+  background: none;
+  border: none;
+  color: var(--navy);
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-overlay-form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background: #F1F5F9;
+  border-radius: 10px;
+  padding: 0 12px;
+  position: relative;
+}
+
+.search-overlay-icon {
+  color: var(--muted);
+  margin-right: 8px;
+}
+
+.search-overlay-input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px; /* Avoid iOS zoom */
+  color: var(--text);
+}
+
+.search-clear-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search-action-btn {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 0 14px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.search-overlay-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.search-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.search-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.search-clear-all {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.search-chip {
+  background: #F1F5F9;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  transition: background-color 0.12s;
+}
+
+.search-chip.popular {
+  background: var(--light-blue);
+  color: var(--primary);
+  border-color: #BFDBFE;
+}
+
+.search-chip:active {
+  background: #E2E8F0;
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="70%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="carBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="70%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="400" fill="transparent"/>
+  <circle cx="480" cy="200" r="180" fill="url(#glow)"/>
+
+  <!-- White Chevrolet Sedan Composition -->
+  <g transform="translate(180, 40) scale(0.95)">
+    <!-- Shadow under car -->
+    <ellipse cx="260" cy="260" rx="220" ry="24" fill="#030712" opacity="0.35"/>
+    
+    <!-- Car body side-front view -->
+    <path d="M70 200c10-25 40-45 80-50l80-35c40-18 90-20 140-10l70 40c40 10 60 25 70 55l-20 30c-10 10-40 15-80 15H120c-30 0-45-15-50-45z" fill="url(#carBody)" stroke="#94A3B8" stroke-width="2"/>
+    <!-- Cabin & Windshield -->
+    <path d="M165 145l65-30c35-15 75-15 110-5l55 35-15 45H155l10-45z" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <path d="M245 118l-15 32h120l-40-30c-20-4-45-5-65-2z" fill="#1E293B" opacity="0.8"/>
+    <!-- Headlights -->
+    <path d="M470 190l30 5-15 15-25-2z" fill="#FDE047" stroke="#EAB308" stroke-width="1.5"/>
+    <!-- Grille & Bowtie -->
+    <rect x="440" y="200" width="40" height="18" rx="3" fill="#1E293B"/>
+    <path d="M455 206h12v-3h8v3h12l-2 4h-10v3h-8v-3h-10l-2-4z" fill="#F59E0B"/>
+    
+    <!-- Wheels -->
+    <!-- Front wheel -->
+    <circle cx="410" cy="245" r="42" fill="#0F172A"/>
+    <circle cx="410" cy="245" r="28" fill="#64748B" stroke="#CBD5E1" stroke-width="4"/>
+    <circle cx="410" cy="245" r="12" fill="#1E293B"/>
+    <!-- Rear wheel -->
+    <circle cx="160" cy="245" r="42" fill="#0F172A"/>
+    <circle cx="160" cy="245" r="28" fill="#64748B" stroke="#CBD5E1" stroke-width="4"/>
+    <circle cx="160" cy="245" r="12" fill="#1E293B"/>
+  </g>
+
+  <!-- Auto parts in foreground (Brake disc, oil canister, oil filter, spark plugs) -->
+  <g transform="translate(10, 100)">
+    <!-- Brake disc in front left -->
+    <g transform="translate(80, 60) scale(0.65)">
+      <circle cx="180" cy="150" r="105" fill="#64748B" stroke="#1F2937" stroke-width="5"/>
+      <circle cx="180" cy="150" r="75" stroke="#475569" stroke-width="4" stroke-dasharray="10 12"/>
+      <circle cx="180" cy="150" r="38" fill="#1E293B"/>
+      <circle cx="180" cy="150" r="15" fill="#0F172A"/>
+      <!-- holes -->
+      <circle cx="180" cy="120" r="6" fill="#0F172A"/>
+      <circle cx="210" cy="150" r="6" fill="#0F172A"/>
+      <circle cx="180" cy="180" r="6" fill="#0F172A"/>
+      <circle cx="150" cy="150" r="6" fill="#0F172A"/>
+    </g>
+
+    <!-- Motor Oil Canister -->
+    <g transform="translate(180, 20) scale(0.6)">
+      <path d="M140 85h50v-20h30v20h40l20 30v130c0 10-10 15-20 15H140c-10 0-20-5-20-15V115l20-30z" fill="#0284C7" stroke="#0369A1" stroke-width="3"/>
+      <rect x="185" y="110" width="85" height="110" rx="6" fill="#FACC15"/>
+      <text x="227" y="150" fill="#DC2626" font-size="20" font-weight="900" text-anchor="middle">HELIX</text>
+      <text x="227" y="180" fill="#1E293B" font-size="16" font-weight="bold" text-anchor="middle">5W-40</text>
+      <rect x="190" y="50" width="30" height="16" rx="2" fill="#DC2626"/>
+    </g>
+
+    <!-- Oil filter -->
+    <g transform="translate(250, 90) scale(0.5)">
+      <rect x="140" y="70" width="110" height="150" rx="14" fill="#F59E0B" stroke="#B45309" stroke-width="4"/>
+      <path d="M140 100h110 M140 130h110 M140 160h110 M140 190h110" stroke="#78350F" stroke-width="2"/>
+    </g>
+
+    <!-- Spark Plugs lying down -->
+    <g transform="translate(230, 190) scale(0.4) rotate(15)">
+      <rect x="50" y="140" width="120" height="20" rx="4" fill="#E2E8F0" stroke="#64748B" stroke-width="3"/>
+      <rect x="170" y="135" width="40" height="30" fill="#94A3B8"/>
+      <rect x="210" y="142" width="50" height="16" fill="#B45309"/>
+      <rect x="260" y="146" width="20" height="8" fill="#E2E8F0"/>
+    </g>
+  </g>
+</svg>
