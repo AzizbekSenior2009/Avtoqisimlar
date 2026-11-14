@@ -165,25 +165,29 @@ export default function Header({ onOpenSearch }) {
             )}
           </div>
 
-          {/* Orange "+ E'lon berish" Button */}
-          <button
-            type="button"
-            className="btn-post-ad hide-mobile"
-            onClick={handlePostAdClick}
-          >
-            <Plus size={18} />
-            <span>{t('header.postAd', "+ E'lon berish")}</span>
-          </button>
+          {/* Orange "+ E'lon berish" Button - Only visible when user is logged in */}
+          {user && (
+            <>
+              <button
+                type="button"
+                className="btn-post-ad hide-mobile"
+                onClick={handlePostAdClick}
+              >
+                <Plus size={18} />
+                <span>{t('header.postAd', "+ E'lon berish")}</span>
+              </button>
 
-          {/* Mobile '+' rounded square button (40px) */}
-          <button
-            type="button"
-            className="btn-post-ad-mobile show-mobile-only"
-            onClick={handlePostAdClick}
-            aria-label="E'lon berish"
-          >
-            <Plus size={22} />
-          </button>
+              {/* Mobile '+' rounded square button (40px) */}
+              <button
+                type="button"
+                className="btn-post-ad-mobile show-mobile-only"
+                onClick={handlePostAdClick}
+                aria-label="E'lon berish"
+              >
+                <Plus size={22} />
+              </button>
+            </>
+          )}
         </div>
       </div>
     </header>
