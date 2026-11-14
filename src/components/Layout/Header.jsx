@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Search, User, Plus, ShoppingCart, ChevronDown, LogOut, Package, Heart, LayoutDashboard } from 'lucide-react';
+import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom';
+import { Search, User, Plus, ShoppingCart, ChevronDown, LogOut, Package, Heart, LayoutDashboard, Home, Grid } from 'lucide-react';
 import Logo from '../ui/Logo';
 import { useAuth } from '../../context/AuthContext';
 import { useCart } from '../../context/CartContext';
@@ -62,14 +62,34 @@ export default function Header({ onOpenSearch }) {
   return (
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-container">
-        {/* Logo */}
-        <div className="header-logo-wrap">
-          <span className="hide-mobile">
-            <Logo variant="default" />
-          </span>
-          <span className="show-mobile-only">
-            <Logo variant="phone" />
-          </span>
+        {/* Logo & Main Nav */}
+        <div className="header-left">
+          <div className="header-logo-wrap">
+            <span className="hide-mobile">
+              <Logo variant="default" />
+            </span>
+            <span className="show-mobile-only">
+              <Logo variant="phone" />
+            </span>
+          </div>
+
+          <nav className="header-main-nav hide-mobile" aria-label="Asosiy menyu">
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) => `header-nav-btn ${isActive ? 'active' : ''}`}
+            >
+              <Home size={17} />
+              <span>{t('header.home', 'Bosh sahifa')}</span>
+            </NavLink>
+            <NavLink
+              to="/catalog"
+              className={({ isActive }) => `header-nav-btn ${isActive ? 'active' : ''}`}
+            >
+              <Grid size={17} />
+              <span>{t('header.catalog', 'Katalog')}</span>
+            </NavLink>
+          </nav>
         </div>
 
         {/* Desktop Search Input with attached Blue Button */}

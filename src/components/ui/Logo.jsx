@@ -21,6 +21,7 @@ export default function Logo({ variant = 'default', className = '' }) {
       to="/"
       className={`logo-link ${className}`}
       aria-label="AvtoQism Bosh sahifa"
+      title="AvtoQism — Bosh sahifa"
       style={{
         display: 'inline-flex',
         alignItems: 'center',

@@ -5,6 +5,8 @@
     "delivery": "Butun O'zbekiston bo'ylab"
   },
   "header": {
+    "home": "Bosh sahifa",
+    "catalog": "Katalog",
     "searchPlaceholder": "Qidiruv... (masalan: amortizator, tormoz kolodka)",
     "search": "Qidirish",
     "login": "Kirish",

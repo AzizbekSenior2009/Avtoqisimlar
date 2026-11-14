@@ -5,6 +5,8 @@
     "delivery": "All Across Uzbekistan"
   },
   "header": {
+    "home": "Home",
+    "catalog": "Catalog",
     "searchPlaceholder": "Search... (e.g. shock absorber, brake pads)",
     "search": "Search",
     "login": "Sign In",

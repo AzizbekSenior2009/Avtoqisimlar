@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { X, Globe, Heart, Package, Truck, Phone, LogIn, LogOut, Grid } from 'lucide-react';
+import { X, Globe, Heart, Package, Truck, Phone, LogIn, LogOut, Grid, Home } from 'lucide-react';
 import Logo from '../ui/Logo';
 import { useLanguage } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
@@ -74,6 +74,10 @@ export default function MobileDrawer({ isOpen, onClose }) {
         <div className="drawer-content">
           {/* Main Navigation Links */}
           <div className="drawer-nav-group">
+            <Link to="/" className="drawer-nav-link">
+              <Home size={18} />
+              <span>{t('header.home', 'Bosh sahifa')}</span>
+            </Link>
             <Link to="/catalog" className="drawer-nav-link">
               <Grid size={18} />
               <span>{t('footer.catalog', 'Katalog')}</span>
