@@ -103,12 +103,22 @@
 .search-input {
   flex: 1;
   height: 100%;
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   padding: 0 12px;
   font-size: 15px;
   color: var(--text);
-  background: transparent;
+  background: transparent !important;
+}
+
+.search-input:focus {
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 .search-input::placeholder {
