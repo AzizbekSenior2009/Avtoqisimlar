@@ -30,7 +30,7 @@ export default function DashboardOrders() {
                 {user?.name ? user.name.charAt(0).toUpperCase() : 'A'}
               </div>
               <h3 className="widget-user-name">{user?.name || 'Azizbek'}</h3>
-              <p className="widget-user-phone">{user?.phone || '+998 90 123 45 67'}</p>
+              <p className="widget-user-phone">{user?.phone || '+998 93 695 30 66'}</p>
             </div>
 
             <nav className="dashboard-nav-menu">

@@ -100,15 +100,15 @@ export default function Footer() {
             <ul className="footer-contact-list">
               <li>
                 <Phone size={16} className="contact-icon" />
-                <a href="tel:+998901234567">+998 90 123 45 67</a>
+                <a href="tel:+998936953066">+998 93 695 30 66</a>
               </li>
               <li>
                 <Mail size={16} className="contact-icon" />
-                <a href="mailto:info@avtoqism.uz">info@avtoqism.uz</a>
+                <a href="mailto:azizbeksiddiqov077@gmail.com">azizbeksiddiqov077@gmail.com</a>
               </li>
               <li>
                 <MapPin size={16} className="contact-icon" />
-                <span>Toshkent, Uzbekistan</span>
+                <span>Namangan, Yangiqo'rg'on</span>
               </li>
             </ul>
           </div>

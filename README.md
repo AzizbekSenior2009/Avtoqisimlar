@@ -39,9 +39,9 @@ Brauzerda oching: [http://localhost:5173](http://localhost:5173)
 Siz bitta tugma orqali yoki quyidagi loginlar bilan kirishingiz mumkin:
 
 1. **Oddiy Foydalanuvchi (Azizbek):**
-   - Telefon: `+998 90 123 45 67`
+   - Telefon: `+998 93 695 30 66`
    - SMS tasdiqlash kodi: `123456`
-   - Yoki parolli kirish: `azizbek@avtoqism.uz` / `123456`
+   - Yoki parolli kirish: `azizbeksiddiqov077@gmail.com` / `123456`
 
 2. **Admin Panel:**
    - URL: `/admin` (yoki yuqori o'ng menyudan)

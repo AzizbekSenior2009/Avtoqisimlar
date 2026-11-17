@@ -14,7 +14,7 @@ export default function Login() {
   const { showToast } = useToast();
 
   const [authMode, setAuthMode] = useState('phone'); // 'phone' | 'email'
-  const [phone, setPhone] = useState('+998 90 123 45 67');
+  const [phone, setPhone] = useState('+998 93 695 30 66');
   const [smsSent, setSmsSent] = useState(false);
   const [smsCode, setSmsCode] = useState('');
   const [email, setEmail] = useState('');
@@ -134,7 +134,7 @@ export default function Login() {
                     <input
                       type="tel"
                       className="auth-input-phone"
-                      placeholder="+998 90 123 45 67"
+                      placeholder="+998 93 695 30 66"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       required

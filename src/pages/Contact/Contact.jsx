@@ -47,7 +47,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <strong>Telefon:</strong>
-                  <div>+998 90 123 45 67</div>
+                  <div><a href="tel:+998936953066" style={{ color: 'inherit', textDecoration: 'none' }}>+998 93 695 30 66</a></div>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <strong>Email:</strong>
-                  <div>info@avtoqism.uz</div>
+                  <div><a href="mailto:azizbeksiddiqov077@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>azizbeksiddiqov077@gmail.com</a></div>
                 </div>
               </div>
 
@@ -77,7 +77,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <strong>Manzil:</strong>
-                  <div>Toshkent shahri, Yunusobod tumani</div>
+                  <div>Namangan viloyati, Yangiqo'rg'on tumani</div>
                 </div>
               </div>
             </div>

@@ -37,8 +37,8 @@ export const authService = {
           const standardUser = users.find((u) => u.id === 1) || {
             id: 1,
             name: 'Azizbek',
-            email: 'azizbek@gmail.com',
-            phone: '+998 90 123 45 67',
+            email: 'azizbeksiddiqov077@gmail.com',
+            phone: '+998 93 695 30 66',
             role: 'user',
           };
           setItem(KEYS.CURRENT_USER, standardUser);
@@ -162,8 +162,8 @@ export const authService = {
     const demoUser = users.find((u) => u.id === 1) || {
       id: 1,
       name: 'Azizbek',
-      phone: '+998 90 123 45 67',
-      email: 'azizbek@avtoqism.uz',
+      phone: '+998 93 695 30 66',
+      email: 'azizbeksiddiqov077@gmail.com',
       role: 'user',
     };
     setItem(KEYS.CURRENT_USER, demoUser);
