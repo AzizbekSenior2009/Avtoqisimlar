@@ -119,11 +119,13 @@
 .hero-banner-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,
-      rgba(7, 21, 22, 0.94) 0%,
-      rgba(8, 26, 66, 0.86) 10%,
-      rgba(10, 31, 78, 0.45) 28%,
-      rgba(11, 31, 90, 0.1) 90%);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 21, 52, 0.94) 0%,
+    rgba(8, 26, 66, 0.86) 25%,
+    rgba(10, 31, 78, 0.45) 50%,
+    rgba(11, 31, 70, 0.1) 85%
+  );
   z-index: 1;
   pointer-events: none;
 }
@@ -765,11 +767,13 @@
   }
 
   .hero-banner-overlay {
-    background: linear-gradient(90deg,
-        rgba(7, 21, 52, 0.96) 0%,
-        rgba(8, 26, 66, 0.9) 52%,
-        rgba(10, 31, 78, 0.5) 80%,
-        rgba(11, 31, 70, 0.15) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(7, 21, 52, 0.96) 0%,
+      rgba(8, 26, 66, 0.9) 52%,
+      rgba(10, 31, 78, 0.5) 80%,
+      rgba(11, 31, 70, 0.15) 100%
+    );
   }
 
   .hero-content {

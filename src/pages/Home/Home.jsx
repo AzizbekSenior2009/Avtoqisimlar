@@ -158,9 +158,9 @@ export default function Home() {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              {/* Background Image & Contrast Overlay */}
+              {/* Background Image & Contrast Overlay (8K Ultra HD) */}
               <img
-                src="/images/hero/hero-banner.png"
+                src="/images/brands/avtoqism_banner_8k.png"
                 alt="AvtoQism Chevrolet va ehtiyot qismlari"
                 className="hero-banner-bg"
               />
