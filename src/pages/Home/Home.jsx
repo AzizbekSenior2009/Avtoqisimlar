@@ -152,12 +152,20 @@ export default function Home() {
               </div>
             </div>
 
-            {/* 2. Middle Card: Hero banner with gradient */}
+            {/* 2. Middle Card: Hero banner with custom Chevrolet & auto parts banner */}
             <div
               className="hero-banner"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
+              {/* Background Image & Contrast Overlay */}
+              <img
+                src="/images/hero/hero-banner.png"
+                alt="AvtoQism Chevrolet va ehtiyot qismlari"
+                className="hero-banner-bg"
+              />
+              <div className="hero-banner-overlay" />
+
               <div className="hero-content">
                 <div className="hero-titles">
                   <h1 className="hero-title-main">{slide.title1}</h1>
@@ -183,15 +191,6 @@ export default function Home() {
                 <Link to={slide.ctaLink} className="hero-cta-btn">
                   {t('hero.catalogBtn', "Katalogni ko'rish →")}
                 </Link>
-              </div>
-
-              {/* Hero Car & Parts Visual */}
-              <div className="hero-visual">
-                <img
-                  src="/images/hero/hero-car-parts.svg"
-                  alt="AvtoQism Chevrolet Sedan and Auto Parts"
-                  className="hero-image"
-                />
               </div>
 
               {/* Hero Carousel Dots */}
