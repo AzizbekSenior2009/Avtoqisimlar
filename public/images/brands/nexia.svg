@@ -1,4 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" fill="none">
-    <path d="M15 12h12l18 16h-12L15 12zm28 0h12l18 16h-12L43 12z" fill="#0B4B8A"/>
-    <circle cx="82" cy="20" r="5" fill="#F97316"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <defs>
+    <linearGradient id="nxChrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="30%" stop-color="#E2E8F0"/>
+      <stop offset="70%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="nxBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- Daewoo/Ravon/Nexia Heritage Wings Top -->
+  <g transform="translate(60, 11)">
+    <path d="M-28 -4 C-15 -8, -5 -7, 0 -2 C5 -7, 15 -8, 28 -4 C16 -1, 7 0, 0 5 C-7 0, -16 -1, -28 -4 Z" fill="url(#nxChrome)"/>
+    <circle cx="0" cy="-1" r="3.5" fill="url(#nxBlue)"/>
+  </g>
+  <!-- Chrome NEXIA script -->
+  <text x="60" y="37" text-anchor="middle" font-family="'Trebuchet MS', 'Arial Black', sans-serif" font-weight="900" font-size="17" letter-spacing="3.5" fill="#1E293B">NEXIA</text>
+  <path d="M22 42h76" stroke="url(#nxBlue)" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

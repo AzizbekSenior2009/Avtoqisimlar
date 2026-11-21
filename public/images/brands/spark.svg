@@ -1,4 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" fill="none">
-    <path d="M20 20h14l4-8 12 16 6-8h24" stroke="#111827" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="50" cy="20" r="4" fill="#F97316"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <defs>
+    <linearGradient id="spkGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="spkChrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <!-- Mini Gold Bowtie -->
+  <g transform="translate(38, 2) scale(0.28)">
+    <path d="M12 21h46V7h44v14h46l-7 22H97v14H53V43H5l7-22z" fill="url(#spkChrome)"/>
+    <path d="M16 23h44V10h40v13h44l-5 18H98v13H58V41H11l5-18z" fill="url(#spkGold)"/>
+  </g>
+  <!-- Sleek SPARK Badge -->
+  <text x="60" y="38" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="18" letter-spacing="3" fill="#0F172A">SPARK</text>
+  <path d="M18 43h84" stroke="url(#spkGold)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="102" cy="43" r="2" fill="#EF4444"/>
+</svg>

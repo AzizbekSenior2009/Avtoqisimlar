@@ -529,17 +529,23 @@
 }
 
 .brand-logo-wrap {
-  height: 36px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .brand-logo-img {
-  max-height: 32px;
-  max-width: 65px;
+  max-height: 36px;
+  max-width: 72px;
   object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.brand-tile-item:hover .brand-logo-img {
+  transform: scale(1.08);
 }
 
 .brand-name {

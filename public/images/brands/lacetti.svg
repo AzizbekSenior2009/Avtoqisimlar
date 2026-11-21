@@ -1,4 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" fill="none">
-    <path d="M15 24l15-12h18L33 24H15zm32 0l15-12h18L65 24H47z" fill="#0B1F46"/>
-    <circle cx="85" cy="18" r="4" fill="#16A34A"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <defs>
+    <linearGradient id="lcChrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#CBD5E1"/>
+      <stop offset="80%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="lcGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Lacetti Shield / Bowtie Crest -->
+  <g transform="translate(60, 10)">
+    <path d="M-18 -5 L18 -5 L12 3 L0 7 L-12 3 Z" fill="url(#lcChrome)" stroke="#475569" stroke-width="0.5"/>
+    <path d="M-12 -3 L12 -3 L8 2 L0 5 L-8 2 Z" fill="url(#lcGold)"/>
+  </g>
+  <!-- Elegant LACETTI script -->
+  <text x="60" y="36" text-anchor="middle" font-family="'Times New Roman', 'Georgia', serif" font-weight="bold" font-style="italic" font-size="17" letter-spacing="2" fill="#0F172A">LACETTI</text>
+  <path d="M16 41h88" stroke="url(#lcChrome)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

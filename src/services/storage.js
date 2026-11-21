@@ -33,6 +33,15 @@ export function initLocalStorage() {
   }
   if (!localStorage.getItem(KEYS.BRANDS)) {
     localStorage.setItem(KEYS.BRANDS, JSON.stringify(initialBrands));
+  } else {
+    try {
+      const stored = JSON.parse(localStorage.getItem(KEYS.BRANDS));
+      if (!Array.isArray(stored) || stored.length === 0 || !stored[0].logo) {
+        localStorage.setItem(KEYS.BRANDS, JSON.stringify(initialBrands));
+      }
+    } catch {
+      localStorage.setItem(KEYS.BRANDS, JSON.stringify(initialBrands));
+    }
   }
   if (!localStorage.getItem(KEYS.SELLERS)) {
     localStorage.setItem(KEYS.SELLERS, JSON.stringify(initialSellers));

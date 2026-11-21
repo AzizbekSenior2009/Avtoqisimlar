@@ -1,12 +1,26 @@
 import { getItem, setItem, KEYS } from './storage';
+import { brands as defaultBrands } from '../data/mock';
 
 export const brandService = {
   getBrands() {
-    return getItem(KEYS.BRANDS, []);
+    const list = getItem(KEYS.BRANDS, []);
+    if (!list || list.length === 0) {
+      setItem(KEYS.BRANDS, defaultBrands);
+      return defaultBrands;
+    }
+    // Ensure every brand has its valid logo and slug from default data
+    return list.map((b) => {
+      const def = defaultBrands.find((d) => d.slug === b.slug || d.id === b.id);
+      return {
+        ...def,
+        ...b,
+        logo: b.logo || def?.logo || `/images/brands/${b.slug}.svg`,
+      };
+    });
   },
 
   getBrandBySlug(slug) {
-    const list = getItem(KEYS.BRANDS, []);
+    const list = this.getBrands();
     return list.find((b) => b.slug === slug || String(b.id) === String(slug));
   },
 

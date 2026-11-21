@@ -1,11 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" fill="none">
-    <path d="M12 14h24V6h28v8h24l-4 12H60v8H32v-8H8l4-12z" fill="#D4AF37" stroke="#B8860B" stroke-width="1.5"/>
-    <path d="M14 15h23V8h26v7h23l-3 10H61v8H34v-8H11l3-10z" fill="url(#goldGrad)"/>
-    <defs>
-      <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#FCD34D"/>
-        <stop offset="50%" stop-color="#F59E0B"/>
-        <stop offset="100%" stop-color="#D97706"/>
-      </linearGradient>
-    </defs>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 64" fill="none">
+  <defs>
+    <linearGradient id="chvChrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#CFD8DC"/>
+      <stop offset="50%" stop-color="#90A4AE"/>
+      <stop offset="75%" stop-color="#ECEFF1"/>
+      <stop offset="100%" stop-color="#78909C"/>
+    </linearGradient>
+    <linearGradient id="chvGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="25%" stop-color="#FFD54F"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="80%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <filter id="chvShadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#chvShadow)">
+    <path d="M12 21h46V7h44v14h46l-7 22H97v14H53V43H5l7-22z" fill="url(#chvChrome)" stroke="#607D8B" stroke-width="0.8"/>
+    <path d="M16 23h44V10h40v13h44l-5 18H98v13H58V41H11l5-18z" fill="url(#chvGold)"/>
+    <path d="M17 24h43V11h38v13h42l-2 8H99v12H59V32H15l2-8z" fill="#FFF9C4" opacity="0.4"/>
+    <line x1="13" y1="32" x2="147" y2="32" stroke="#FFF" stroke-width="0.75" opacity="0.5"/>
+  </g>
+</svg>

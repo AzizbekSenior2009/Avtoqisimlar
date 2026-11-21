@@ -1,4 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" fill="none">
-    <ellipse cx="50" cy="20" rx="30" ry="16" stroke="#C51829" stroke-width="3" fill="none"/>
-    <path d="M42 27c0-10 12-14 16-14-3 5-3 10-2 14h-14zm14 0c2-5 6-8 10-9-3 3-5 6-5 9h-5z" fill="#C51829"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 56" fill="none">
+  <defs>
+    <linearGradient id="ldOvalBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ldChrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#E2E8F0"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Oval Ring -->
+  <ellipse cx="50" cy="28" rx="46" ry="24" fill="url(#ldOvalBg)" stroke="url(#ldChrome)" stroke-width="3.5"/>
+  <!-- Inner Ring Line -->
+  <ellipse cx="50" cy="28" rx="41" ry="20" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.6"/>
+  <!-- Lada Ladya (Sailing Ship) in Chrome/Silver -->
+  <g fill="url(#ldChrome)" stroke="#475569" stroke-width="0.3">
+    <!-- Boat Hull -->
+    <path d="M22 36c6 3 18 5 28 5s22-2 28-5c-4 2-16 4-28 4s-24-2-28-4z"/>
+    <path d="M24 35c8 1 18 2 26 2s18-1 26-2l-3 4c-7 1.5-15 2-23 2s-16-0.5-23-2l-3-4z" fill="#CBD5E1"/>
+    <!-- Center Sail -->
+    <path d="M48 13c1 7 0 16-5 21 8-2 12-8 13-17l-8-4z" fill="#FFFFFF"/>
+    <!-- Front/Right Main Sail -->
+    <path d="M57 16c2 6 2 13-3 18 9-2 15-7 16-15l-13-3z" fill="#F1F5F9"/>
+    <!-- Rear/Left Sail -->
+    <path d="M39 18c1 5 0 11-4 15 6-1 9-5 10-12l-6-3z" fill="#E2E8F0"/>
+    <!-- Mast Pennant Wave -->
+    <path d="M51 11c2 1 4 0 6-1-2 2-4 2-6 1z" fill="#EF4444"/>
+  </g>
+</svg>
